@@ -1,2 +1,4 @@
 # DesignPattern
-Design Pattern Sample Codes
+
+1. Factory Method Design Pattern 
+
