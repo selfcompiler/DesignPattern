@@ -1,0 +1,6 @@
+Factory Design Pattern Notes 
+
+1. Should not use new every where 
+2. Remember that designs should be “open for extension but closed for modification” 
+3. Factories will handle the details of object creation 
+4. 
