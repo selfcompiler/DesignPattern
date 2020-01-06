@@ -3,4 +3,18 @@ Factory Design Pattern Notes
 1. Should not use new every where 
 2. Remember that designs should be “open for extension but closed for modification” 
 3. Factories will handle the details of object creation 
-4. 
+4. A factory method handles object creation and encapsulates it in a subclass. This decouples the client code in the superclass from the object creation code in the subclass. 
+5.The factory method is the key to encapsulating this knowledge. 
+6.The Factory Method Pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+
+The Dependency Inversion Principle 
+1. Depend upon abstractions. Do not depend upon concrete classes. 
+     
+      At first, this principle sounds a lot like “Program to an interface, not an implementation,” right? It is similar; however, the Dependency Inversion Principle makes an even stronger statement about abstraction. It suggests that our high-level components should not depend on our low-level components; rather, they should both depend on abstractions. 
+
+2.No variable should hold a reference to a concrete class. 
+
+3. No class should derive from a concrete class. 
+
+4. No method should override an implemented method of any of its base classes. 
+
