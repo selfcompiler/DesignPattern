@@ -18,3 +18,8 @@ The Dependency Inversion Principle
 
 4. No method should override an implemented method of any of its base classes. 
 
+Real World Example : https://stackoverflow.com/questions/2386125/real-world-examples-of-factory-method-pattern
+
+A class implementing factory design pattern works as bridge between multiple classes. Consider an example of using multiple database servers like SQL Server and Oracle. If you are developing an application using SQL Server database as backend, but in future need to change backend database to oracle, you will need to modify all your code, if you haven’t written your code following factory design pattern.
+
+In factory design pattern you need to do very little work to achieve this. A class implementing factory design pattern takes care for you and lessen your burden. Switching from database server won’t bother you at all. You just need to make some small changes in your configuration file.
